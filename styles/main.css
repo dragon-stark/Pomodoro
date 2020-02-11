@@ -1,0 +1,131 @@
+/* font-family: "Special Elite", cursive;
+font-family: "Montserrat", sans-serif;
+font-family: "Righteous", cursive;
+font-family: "Permanent Marker", cursive;
+font-family: "Fredoka One", cursive; */
+
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Chrome, Opera, Safari */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+html {
+  background-color: #525151;
+}
+
+body {
+  position: absolute;
+  font-family: "Special Elite", cursive;
+  font-size: 2.5em;
+  color: rgb(221, 2, 2);
+  width: 1000px;
+  height: 525px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+#upperButtons,
+#timer,
+#lowerButtons {
+  text-align: center;
+}
+
+#upperButtons div,
+#timer div,
+#lowerButtons div {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#mode {
+  display: block !important;
+  cursor: auto !important;
+}
+
+#time {
+  cursor: auto !important;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+#upperButtons div,
+#lowerButtons div {
+  width: 150px;
+  padding: 6px 10px;
+  border-style: groove #ffffff;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  letter-spacing: 0.1rem;
+  transition: all 0.35s linear;
+}
+
+#upperButtons div:hover,
+#lowerButtons div:hover {
+  color: #ff6347;
+  background-color: #fff;
+}
+
+#timer {
+  /* border: 10px groove #444444; */
+  border-radius: 50%;
+  width: 285px;
+  height: 260px;
+  margin: 5% auto;
+  padding-top: 50px;
+}
+
+#addTime,
+#reduceTime {
+  vertical-align: middle;
+  font-size: 0.6em;
+}
+
+#resume {
+  display: none !important;
+}
+
+@media only screen and (max-width: 590px) {
+  #upperButtons div,
+  #lowerButtons div {
+    width: 80px;
+    line-height: 50px;
+    height: 50px;
+    padding: 3px 5px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    margin: 0px;
+    letter-spacing: 0.1rem;
+    transition: all 0.35s linear;
+    margin-top: 25px;
+  }
+
+  #timer {
+    margin-bottom: 0px;
+    margin-top: 0px !important;
+  }
+
+  #longBreak {
+    line-height: 25px !important;
+  }
+
+  #upperButtons {
+    margin-bottom: 40px !important;
+  }
+
+  #lowerButtons {
+    margin-top: 8px;
+  }
+}
