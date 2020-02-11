@@ -16,12 +16,6 @@ const upperButtons = document.getElementById("upperButtons"),
   resume = document.getElementById("resume"),
   reset = document.getElementById("reset"),
   alarm = document.getElementById("alarm");
-var express = require("express");
-var favicon = require("serve-favicon");
-var path = require("path");
-
-var app = express();
-app.use(favicon(path.join(__dirname, "public", "favicon.ico")));
 
 let clock,
   timerId,
