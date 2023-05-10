@@ -1,0 +1,15 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+
+
+
+/* Loader */
+
+	body {
+		&:before, &:after {
+			display: none;
+		}
+	}
