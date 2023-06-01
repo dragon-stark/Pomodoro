@@ -1,11 +1,3 @@
-/* font-family: "Special Elite", cursive;
-font-family: "Montserrat", sans-serif;
-font-family: "Righteous", cursive;
-font-family: "Permanent Marker", cursive;
-font-family: "Fredoka One", cursive; */
-
-
-
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
@@ -90,8 +82,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -617,10 +608,10 @@ body.is-preload *:after {
 		}
 
 /* Button */
-input[type="button"],
+/* input[type="button"],
 input[type="submit"],
-input[type="reset"],
-.button,
+input[type="reset"], */
+/* .button,
 button {
 	appearance: none;
 	transition: background-color 0.2s ease-in-out;
@@ -637,7 +628,7 @@ button {
 	position: relative;
 	text-align: center;
 	text-decoration: none;
-}
+} */
 
 input[type="button"].down,
 input[type="submit"].down,
@@ -655,7 +646,7 @@ button.down {
 	overflow: hidden;
 }
 
-input[type="button"].down.anchored,
+/* input[type="button"].down.anchored,
 input[type="submit"].down.anchored,
 input[type="reset"].down.anchored,
 .button.down.anchored,
@@ -665,17 +656,17 @@ button.down.anchored {
 	border-radius: 3em 3em 0 0;
 	height: 4.5em;
 	margin-left: -2.5em;
-}
+} */
 
-input[type="button"].anchored,
+/* input[type="button"].anchored,
 input[type="submit"].anchored,
 input[type="reset"].anchored,
 .button.anchored,
 button.anchored {
 	position: absolute;
 	left: 50%;
-}
-
+} */
+/*
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -724,7 +715,7 @@ input[type="reset"].style2.down,
 .button.style2.down,
 button.style2.down {
 	background-image: url("images/arrow.svg");
-}
+} */
 
 /* Form */
 form {
@@ -1837,7 +1828,7 @@ textarea {
 				margin-top: 0px !important;
 			}
 
-			#longBreak {
+			/* #longBreak {
 				line-height: 25px !important;
 			}
 
@@ -1847,5 +1838,5 @@ textarea {
 
 			#lowerButtons {
 				margin-top: 8px;
-			}
+			} */
 		}
