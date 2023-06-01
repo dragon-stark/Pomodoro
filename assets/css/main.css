@@ -1805,7 +1805,8 @@ textarea {
 		#addTime,
 		#reduceTime {
 			vertical-align: middle;
-			font-size: 0.6em;
+			font-size: 1.8em;
+			padding: 20px;
 		}
 
 		#resume {
