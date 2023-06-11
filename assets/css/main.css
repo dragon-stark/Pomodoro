@@ -608,10 +608,10 @@ body.is-preload *:after {
 		}
 
 /* Button */
-/* input[type="button"],
+input[type="button"],
 input[type="submit"],
-input[type="reset"], */
-/* .button,
+input[type="reset"],
+ .button,
 button {
 	appearance: none;
 	transition: background-color 0.2s ease-in-out;
@@ -628,7 +628,7 @@ button {
 	position: relative;
 	text-align: center;
 	text-decoration: none;
-} */
+}
 
 input[type="button"].down,
 input[type="submit"].down,
